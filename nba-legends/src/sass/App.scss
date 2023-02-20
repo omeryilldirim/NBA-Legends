@@ -1,0 +1,5 @@
+@import "./variables", "./reset", "./mixins";
+@import "../components/form/form.module.scss", 
+"../components/main/main.module.scss", 
+"../components/header/header.module.scss";
+
