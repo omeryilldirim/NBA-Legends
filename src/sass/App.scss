@@ -3,3 +3,9 @@
 "../components/main/main.module.scss", 
 "../components/header/header.module.scss";
 
+// -webkit-font-smoothing: antialiased;
+// -moz-osx-font-smoothing: grayscale;
+
+body{
+    background-color: $bgColor;
+}
