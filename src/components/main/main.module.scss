@@ -71,3 +71,16 @@
         font-size: 1.1rem;
     }
 }
+
+.formContainer{
+    text-align: center;
+
+    form input{
+        width: 40vw;
+        min-width:200px;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+}
