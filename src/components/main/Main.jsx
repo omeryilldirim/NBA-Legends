@@ -1,7 +1,7 @@
 import Card from "./Card";
 import MainStyle from "./main.module.scss";
 import { data } from "../../utils/data";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 const Main = () => {
@@ -10,14 +10,18 @@ const Main = () => {
 
   const handleChange = (e) => {
     setSearchInput(e.target.value.toLowerCase())
-    console.log(searchInput);
-    setFilteredData(data.filter((player) => player.name.toLowerCase().includes(searchInput)))
+    console.log(searchInput);   
   } 
+  useEffect(() => {
+    setFilteredData(data.filter((player) => player.name.toLowerCase().includes(searchInput)))
+  }, [searchInput])
+
+
   return (
     <>
       <div className={MainStyle.formContainer}>
         <form action="">
-          <input onChange={handleChange} type="search" name="" id="" placeholder="Search player..." />
+          <input onChange={handleChange} type="text" name="" id="" placeholder="Search player..." />
         </form>
       </div>
 

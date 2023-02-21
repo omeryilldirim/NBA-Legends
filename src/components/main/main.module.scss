@@ -1,9 +1,6 @@
-.cardsContainer{
-    background-image: url("../../../public/bg-image.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+@import "../../sass/variables";
 
+.cardsContainer{
     padding: 2rem;
     margin: 2rem 4rem;
     border-radius: 20px;
@@ -82,5 +79,11 @@
         border: none;
         border-radius: 5px;
         font-size: 1rem;
+        background:rgba(228, 227, 227, 0.274);
+        color: $textColor;
+
+        &::placeholder{
+            color: black;
+        }
     }
 }
