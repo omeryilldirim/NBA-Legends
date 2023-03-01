@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/NBA-Legends/static/css/main.95319486.css",
-    "main.js": "/NBA-Legends/static/js/main.68049a59.js",
-    "static/js/787.6c338d7f.chunk.js": "/NBA-Legends/static/js/787.6c338d7f.chunk.js",
-    "static/media/bg-image.jpg": "/NBA-Legends/static/media/bg-image.bb7499cb31a7d30a50ec.jpg",
-    "index.html": "/NBA-Legends/index.html",
-    "main.95319486.css.map": "/NBA-Legends/static/css/main.95319486.css.map",
-    "main.68049a59.js.map": "/NBA-Legends/static/js/main.68049a59.js.map",
-    "787.6c338d7f.chunk.js.map": "/NBA-Legends/static/js/787.6c338d7f.chunk.js.map"
+    "main.css": "/nba-legends/static/css/main.1bb76e3f.css",
+    "main.js": "/nba-legends/static/js/main.184d4699.js",
+    "static/js/787.6c338d7f.chunk.js": "/nba-legends/static/js/787.6c338d7f.chunk.js",
+    "static/media/bg-image.jpg": "/nba-legends/static/media/bg-image.bb7499cb31a7d30a50ec.jpg",
+    "index.html": "/nba-legends/index.html",
+    "main.1bb76e3f.css.map": "/nba-legends/static/css/main.1bb76e3f.css.map",
+    "main.184d4699.js.map": "/nba-legends/static/js/main.184d4699.js.map",
+    "787.6c338d7f.chunk.js.map": "/nba-legends/static/js/787.6c338d7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95319486.css",
-    "static/js/main.68049a59.js"
+    "static/css/main.1bb76e3f.css",
+    "static/js/main.184d4699.js"
   ]
 }
