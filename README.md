@@ -35,7 +35,7 @@ NBA Legends(folder)
 
 ## Expected Outcome
 
-![Project Snapshot](project-snapshot.gif)
+![Project Snapshot](project-snapshot.gi)
 
 ## Objective
 
