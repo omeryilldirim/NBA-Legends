@@ -40,8 +40,6 @@ NBA Legends(folder)
 ```
 
 ## Expected Outcome
-
-![Project Snapshot](project-snapshot.gif)
-
+**<div align="center">![Project Snapshot](project-snapshot.gif)</div>**
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
