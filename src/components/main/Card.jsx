@@ -9,7 +9,6 @@ const Card = ({name,img,statistics}) => {
     
     const handleClick = () => {
         setToggle(!toggle)
-        setTimeout(()=>setToggle(!toggle), 5000)
     }
 
     return (
