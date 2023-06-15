@@ -7,7 +7,10 @@ const Card = ({name,img,statistics}) => {
     const [toggle, setToggle] = useState(true)
     const[point, rebound, assist, star] = statistics
     
-    const handleClick = () => setToggle(!toggle)
+    const handleClick = () => {
+        setToggle(!toggle)
+        setTimeout(()=>setToggle(!toggle), 5000)
+    }
 
     return (
         <>
