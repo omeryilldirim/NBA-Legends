@@ -9,9 +9,9 @@ const Main = () => {
   const [filteredData, setFilteredData] = useState(data)
 
   const handleChange = (e) => {
-    setSearchInput(e.target.value.toLowerCase())
-    console.log(searchInput);   
+    setSearchInput(e.target.value.toLowerCase())  
   } 
+  
   useEffect(() => {
     setFilteredData(data.filter((player) => player.name.toLowerCase().includes(searchInput)))
   }, [searchInput])

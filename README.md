@@ -2,7 +2,11 @@
 
 ## Description
 
-NBA-Legends Cards App.
+Built an NBA-Legends Cards App using ReactJS.You can searh through the players data and when you click the player card you will see the statistics of the player.
+
+### Topics are to be covered;
+
+- HTML, CSS, SCSS, JS, ReactJS
 
 ## Project Skeleton
 
@@ -29,7 +33,9 @@ NBA Legends(folder)
 │    ├── App.js
 │    └── index.js
 │
+├── .gitignore
 ├── package.json
+├── readme.md
 └── yarn.lock
 ```
 
@@ -37,12 +43,5 @@ NBA Legends(folder)
 
 ![Project Snapshot](project-snapshot.gif)
 
-## Objective
-
-Building a NBA Legends App using ReactJS. You can search through the players data. Player cards are included images and statistics.
-
-### Topics are to be covered;
-
-- HTML, CSS, JS, ReactJS
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
